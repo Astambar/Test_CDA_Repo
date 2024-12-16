@@ -1,6 +1,7 @@
-mkdir models
-mkdir vews
-mkdir controller
-New-Item controller/Function.cs
-New-Item vews/Program.cs
-New-Item models/Data.cs
+mkdir Models
+mkdir Views
+mkdir Controllers
+New-Item Controllers/HomeController.cs
+New-Item Views/HomeView.cshtml
+New-Item Models/DataModel.cs
+New-Item Program.cs
